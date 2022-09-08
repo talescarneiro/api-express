@@ -3,7 +3,7 @@ import usersRoutes from "./routes/users.routes.js"
 
 const app = express()
 
-app.use("/users", usersRoutes)
+app.use("", usersRoutes)
 
 const PORT = 3000
 
